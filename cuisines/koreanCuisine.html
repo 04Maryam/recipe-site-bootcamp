@@ -3,13 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Korean Cuisine</title>
+    <title>Korean Cuisine Recipes</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <h1>Recipes</h1>
-    <a href="../recipes/korean/bibimbap.html">Bibimbap</a>
-    <a href="../recipes/korean/kimchiJjigae.html">Kimchi Jjigae</a>
-    <a href="../recipes/korean/bulgogi.html">Bulgogi</a>
-    <a href="../recipes/korean/Tteokbokki.html">Tteokbokki</a>
+    <header>
+      <h1>The Best Recipes!</h1>
+    </header>
+
+    <h3 class="subtitle">Explore Korean Cuisine Recipes</h3>
+
+    <div class="main">
+      <div class="container">
+        <div class="recipe-card" onclick="window.location.href='../recipes/korean/bibimbap.html'">
+          <img src="https://via.placeholder.com/200x200/FF5733/fff?text=Kung+Pao+Chicken" alt="Bibimbap">
+          <div class="overlay">
+            <div class="overlay-text">Bibimbap</div>
+          </div>
+        </div>
+        <div class="recipe-card" onclick="window.location.href='../recipes/korean/kimchiJigae.html'">
+          <img src="https://via.placeholder.com/200x200/FF5733/fff?text=Dim+Sum" alt="Kimchi Jjigae">
+          <div class="overlay">
+            <div class="overlay-text">Kimchi Jjigae</div>
+          </div>
+        </div>
+        <div class="recipe-card" onclick="window.location.href='../recipes/korean/bulgogi.html'">
+          <img src="https://via.placeholder.com/200x200/FF5733/fff?text=Peking+Duck" alt="Bulgogi">
+          <div class="overlay">
+            <div class="overlay-text">Bulgogi</div>
+          </div>
+        </div>
+        <div class="recipe-card" onclick="window.location.href='../recipes/korean/Tteokbokki.html'">
+          <img src="https://via.placeholder.com/200x200/FF5733/fff?text=Peking+Duck" alt="Tteokbokki">
+          <div class="overlay">
+            <div class="overlay-text">Tteokbokki</div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

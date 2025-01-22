@@ -3,13 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greek Cuisine</title>
+    <title>Greek Cuisine Recipes</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <h1>Recipes</h1>
-    <a href="../recipes/greek/moussaka.html">Moussaka</a>
-    <a href="../recipes/greek/souvlaki.html">Souvlaki</a>
-    <a href="../recipes/greek/spanakopita.html">Spanakopita</a>
-    <a href="../recipes/greek/baklava.html">Baklava</a>
+    <header>
+      <h1>The Best Recipes!</h1>
+    </header>
+
+    <h3 class="subtitle">Explore Greek Cuisine Recipes</h3>
+
+    <div class="main">
+      <div class="container">
+        <div class="recipe-card" onclick="window.location.href='../recipes/greek/moussaka.html'">
+          <img src="https://via.placeholder.com/200x200/FF5733/fff?text=Kung+Pao+Chicken" alt="Moussaka">
+          <div class="overlay">
+            <div class="overlay-text">Moussaka</div>
+          </div>
+        </div>
+        <div class="recipe-card" onclick="window.location.href='../recipes/greek/souvlaki.html'">
+          <img src="https://via.placeholder.com/200x200/FF5733/fff?text=Dim+Sum" alt="Souvlaki">
+          <div class="overlay">
+            <div class="overlay-text">Souvlaki</div>
+          </div>
+        </div>
+        <div class="recipe-card" onclick="window.location.href='../recipes/greek/spanakopita.html'">
+          <img src="https://via.placeholder.com/200x200/FF5733/fff?text=Peking+Duck" alt="Spanakopita">
+          <div class="overlay">
+            <div class="overlay-text">Spanakopita</div>
+          </div>
+        </div>
+        <div class="recipe-card" onclick="window.location.href='../recipes/greek/baklava.html'">
+          <img src="https://via.placeholder.com/200x200/FF5733/fff?text=Peking+Duck" alt="Baklava">
+          <div class="overlay">
+            <div class="overlay-text">Baklava</div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
