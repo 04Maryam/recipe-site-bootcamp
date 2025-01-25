@@ -6,6 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="../../assets/css/style.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #ff6347;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-bottom: 20px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+
+      header a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .recipe-container {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        max-width: 1200px;
+        width: 100%;
+      }
+
+      .recipe img {
+        max-width: 300px;
+        height: auto;
+        object-fit:fill;
+      }
+
+      .recipe-details {
+        flex: 2;
+        padding: 20px;
+      }
+
+      .recipe-title {
+        font-size: 1.8rem;
+        color: #ff6347;
+        margin-bottom: 10px;
+      }
+
+      h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #444;
+        font-size: 1.2rem;
+      }
+
+      ul {
+        padding-left: 20px;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      ol {
+        padding-left: 20px;
+        margin: 0;
+      }
+
+      .recipe-details h5 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 1rem;
+        color: #555;
+      }
+
+      @media (max-width: 768px) {
+        .recipe-container {
+          flex-direction: column;
+        }
+
+        .recipe img {
+          width: 100%;
+          max-height: 200px;
+        }
+
+        .recipe-details {
+          padding: 10px;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -19,6 +126,7 @@
         </div>
         <div class="recipe-details">
           <h3 class="recipe-title">Kung Pao Chicken Recipe</h3>
+          <p>Spicy stir-fried chicken with peanuts, vegetables and chilli peppers.</p>
           <h4>Ingredients</h4>
           <h5>For the Chicken Marinade:</h5>
           <ul>
