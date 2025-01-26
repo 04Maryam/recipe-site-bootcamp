@@ -25,6 +25,11 @@
     text-transform: uppercase;
     letter-spacing: 2px;
   }
+  
+  h1 > a {
+    text-decoration: none;
+    color: #fff;
+  }
 
   .subtitle {
     font-size: 1.7em;
